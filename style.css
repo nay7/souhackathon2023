@@ -1,0 +1,81 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: mento;
+}
+
+html {
+    background-image: url(webHack.jpg);
+}
+
+body {
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+    color: #fcdcd2;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    min-width: 500px;
+    background-color: #006d77;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 2px;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 0px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #fcdcd2;
+    color: black;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    border-style: solid;
+    border-color: white;
+}
+
+#text {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#mainImage {
+    margin: 10px;
+    position: relative;
+}
+
+#mainImage img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2 rem; 
+    margin: 1.0 rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
