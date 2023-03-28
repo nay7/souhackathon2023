@@ -93,7 +93,7 @@ const texts = [
     }, 
     {
         choice: "Would you ever pick up a sword?", 
-        a: "No, I am to week to pick one up", 
+        a: "No, I am to weak to pick one up", 
         b: "Why would I need a sword", 
         c: "Yes, I think i'd look cool with it", 
         d: "Yes, its a great weapon",
@@ -107,7 +107,7 @@ const texts = [
         a: "Yes, i enjoy walking around the woods and the creeks", 
         b: "I enjoy walking around in gardens", 
         c: "No, im to busy to do that", 
-        d: "HISS THE SUN",
+        d: "HISS, THE SUN",
         hamlet: "a",
         ophelia: "a",
         gertrude: "b", 
@@ -180,16 +180,16 @@ submitButton.addEventListener('click', () => {
         //console logs to make sure that the current values are being placed on the correct score values
         if (inInfo === texts[currentTest].hamlet) {
             scoreHamlet++; 
-            console.log("hamlet" + scoreHamlet); 
+            console.log("hamlet score: " + scoreHamlet); 
         } else if (inInfo === texts[currentTest].ophelia){
             scoreOphelia++;
-            console.log("ophelia" + scoreOphelia);
+            console.log("opheli score: " + scoreOphelia);
         } else if (inInfo === texts[currentTest].gertrude){
             scoreGertrude++;
-            console.log("gertrude" + scoreGertrude);
+            console.log("gertrude score: " + scoreGertrude);
         } else if (inInfo === texts[currentTest].cladius){
             scoreCladius++;
-            console.log("cladius" + scoreCladius);
+            console.log("cladius score: " + scoreCladius);
         }
         
         //counts every question after you pass
@@ -211,4 +211,3 @@ submitButton.addEventListener('click', () => {
         }
     }
 });
-

@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color: blueviolet;
+    background-image: url(webHack.jpg);
 }
 
 body {
@@ -15,14 +15,14 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vw;
-    color: white;
+    color: #fcdcd2;
 }
 
 .container {
     width: 800px;
     max-width: 80%;
     min-width: 500px;
-    background-color: black;
+    background-color: #006d77;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 15px 2px;
@@ -38,7 +38,7 @@ body {
 }
 
 .btn:hover {
-    background-color: aqua;
+    background-color: #fcdcd2;
     color: black;
 }
 
